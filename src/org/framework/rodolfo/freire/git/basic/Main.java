@@ -1,11 +1,10 @@
 package org.framework.rodolfo.freire.git.basic;
 
-import org.framework.rodolfo.freire.git.basic.controller.BasicController;
 import org.framework.rodolfo.freire.git.basic.controller.BasicControllerGeneric;
-import org.framework.rodolfo.freire.git.basic.model.*;
-
-import java.util.List;
-import java.util.Optional;
+import org.framework.rodolfo.freire.git.basic.model.Account;
+import org.framework.rodolfo.freire.git.basic.model.Business;
+import org.framework.rodolfo.freire.git.basic.model.Card;
+import org.framework.rodolfo.freire.git.basic.model.Person;
 
 public class Main {
 
@@ -32,10 +31,10 @@ public class Main {
          * Instance of Controller;
          */
 
-        BasicControllerGeneric<Person,Long> personController = new BasicControllerGeneric<>();
-        BasicControllerGeneric<Business,Long> businessController = new BasicControllerGeneric<>();
-        BasicControllerGeneric<Account,Long> accountController = new BasicControllerGeneric<>();
-        BasicControllerGeneric<Card,Long> cardController = new BasicControllerGeneric<>();
+        BasicControllerGeneric<Person, Long> personController = new BasicControllerGeneric<>();
+        BasicControllerGeneric<Business, Long> businessController = new BasicControllerGeneric<>();
+        BasicControllerGeneric<Account, Long> accountController = new BasicControllerGeneric<>();
+        BasicControllerGeneric<Card, Long> cardController = new BasicControllerGeneric<>();
 
         /*
          * Call os Methods Controller Person;
